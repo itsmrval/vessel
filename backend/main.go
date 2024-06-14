@@ -140,6 +140,7 @@ func getContainers(c *gin.Context) {
 			"name":    name,
 			"status":  status,
 		}
+
 		containers = append(containers, container)
 	}
 
